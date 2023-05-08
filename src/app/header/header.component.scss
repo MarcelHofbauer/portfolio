@@ -95,3 +95,25 @@ $purple-color: #D61CE6;
         object-fit: cover;
     }
 }
+
+.headerContact {
+    position: absolute;
+    bottom: 20px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+
+    .socialContactBar {
+        height: 1.5px;
+    }
+
+    .socialContactIcons {
+        height: 7px;
+        transition: 150ms ease-in-out;
+
+        &:hover {
+            transform: scale(1.6);
+            transition: 150ms ease-in-out;
+        }
+    }
+}
