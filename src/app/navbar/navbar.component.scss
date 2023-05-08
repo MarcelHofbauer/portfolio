@@ -1,28 +1,45 @@
-@import url(./../../styles.scss);
+$orange-color: #E86F00;
+$red-color: #FF4747;
+$purple-color: #D61CE6;
 
 .navBar {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    margin: 10px;
+    padding: 10px;
+    color: white;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1;
 }
 
 .navBarLogo {
     display: flex;
+    font-size: 10px;
+    color: white;
+    text-decoration: none;
+
 
     .navBarLogo-l {
         color: $orange-color;
     }
 }
 
-
 .navBarMenu {
     display: flex;
-    font-size: 10px;
+    font-size: 6px;
     gap: 10px;
 
-    &:hover {
-        color: $orange-color !important;
-        cursor: pointer;
+
+    p {
+        transition: 150ms ease-in-out;
+
+        &:hover {
+            color: $orange-color !important;
+            cursor: pointer;
+            transition: 150ms ease-in-out;
+        }
     }
 }
