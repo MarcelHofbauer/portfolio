@@ -1,3 +1,8 @@
+$orange-color: #E86F00;
+$red-color: #FF4747;
+$purple-color: #D61CE6;
+
+
 .containerHeader {
     height: 100vh;
     max-width: 100vw;
@@ -24,7 +29,55 @@
     right: 0;
     bottom: 0;
     display: flex;
+    flex-direction: column;
+    gap: 20px;
     justify-content: center;
     align-items: center;
     background-color: unset;
+    color: white;
+
+    div {
+        display: flex;
+    }
+
+    .headline90deg {
+        display: flex;
+        align-items: center;
+        font-size: 16px;
+        transform: rotate(-90deg);
+    }
+
+    a {
+        background-color: $orange-color;
+        box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25);
+        border-radius: 10px;
+        border: unset;
+        padding: 3px 15px;
+        color: white;
+        transition: 150ms ease-in-out;
+        text-decoration: none;
+        font-size: 8px;
+
+        &:hover {
+            background-color: $red-color !important;
+            cursor: pointer;
+            transition: 150ms ease-in-out;
+            transform: scale(1.1);
+        }
+    }
+}
+
+.headlineSecondary {
+    display: flex;
+    flex-direction: column;
+
+    h1 {
+        font-size: 23px;
+    }
+
+    h2 {
+        font-size: 14px;
+        color: $red-color;
+        font-weight: 500;
+    }
 }
