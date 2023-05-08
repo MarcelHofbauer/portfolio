@@ -50,13 +50,13 @@ $purple-color: #D61CE6;
     a {
         background-color: $orange-color;
         box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25);
-        border-radius: 10px;
+        border-radius: 3px;
         border: unset;
-        padding: 3px 15px;
+        padding: 3px 10px;
         color: white;
         transition: 150ms ease-in-out;
         text-decoration: none;
-        font-size: 8px;
+        font-size: 6px;
 
         &:hover {
             background-color: $red-color !important;
