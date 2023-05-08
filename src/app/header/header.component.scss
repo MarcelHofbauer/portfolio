@@ -9,9 +9,11 @@ $purple-color: #D61CE6;
 
     .bgrImg-1 {
         position: absolute;
-        right: -120px;
+        right: 0px;
         top: 10px;
         height: 200px;
+        transform: translateX(120px);
+        overflow: hidden;
     }
 
     .bgrImg-2 {
