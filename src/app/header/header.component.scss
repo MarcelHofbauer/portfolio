@@ -10,16 +10,17 @@ $purple-color: #D61CE6;
     .bgrImg-1 {
         position: absolute;
         right: 0px;
-        top: 10px;
-        height: 200px;
-        transform: translateX(120px);
+        top: 40px;
+        height: 700px;
+        transform: translateX(400px);
     }
 
     .bgrImg-2 {
         position: absolute;
-        left: -70px;
-        top: 30px;
-        height: 200px;
+        left: 0px;
+        top: 60px;
+        height: 700px;
+        transform: translateX(-300px);
     }
 }
 
@@ -39,27 +40,28 @@ $purple-color: #D61CE6;
 
     div {
         display: flex;
-        height: 50px;
+        height: 200px;
     }
 
     .headline90deg {
         display: flex;
         align-items: center;
-        font-size: 16px;
-        transform: rotate(-90deg) translateY(10px);
-        width: 50px;
+        justify-content: center;
+        font-size: 50px;
+        transform: rotate(-90deg) translateY(45px);
+        width: 200px;
     }
 
     a {
         background-color: $orange-color;
         box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25);
-        border-radius: 3px;
+        border-radius: 10px;
         border: unset;
-        padding: 3px 10px;
+        padding: 10px 30px;
         color: white;
         transition: 150ms ease-in-out;
         text-decoration: none;
-        font-size: 6px;
+        font-size: 28px;
 
         &:hover {
             background-color: $red-color !important;
@@ -73,13 +75,14 @@ $purple-color: #D61CE6;
 .headlineSecondary {
     display: flex;
     flex-direction: column;
+    justify-content: center;
 
     h1 {
-        font-size: 23px;
+        font-size: 60px;
     }
 
     h2 {
-        font-size: 14px;
+        font-size: 45px;
         color: $red-color;
         font-weight: 500;
     }
@@ -87,28 +90,28 @@ $purple-color: #D61CE6;
 
 .headerScrollDown {
     position: absolute;
-    right: 20px;
-    bottom: 0px;
+    right: 50px;
+    bottom: 50px;
 
     img {
-        height: 40px;
+        height: 150px;
         object-fit: cover;
     }
 }
 
 .headerContact {
     position: absolute;
-    bottom: 20px;
+    bottom: 50px;
     display: flex;
     align-items: center;
-    gap: 10px;
+    gap: 40px;
 
     .socialContactBar {
-        height: 1.5px;
+        height: 5px;
     }
 
     .socialContactIcons {
-        height: 7px;
+        height: 20px;
         transition: 150ms ease-in-out;
 
         &:hover {
