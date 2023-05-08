@@ -13,7 +13,6 @@ $purple-color: #D61CE6;
         top: 10px;
         height: 200px;
         transform: translateX(120px);
-        overflow-x: hidden;
     }
 
     .bgrImg-2 {
@@ -40,13 +39,15 @@ $purple-color: #D61CE6;
 
     div {
         display: flex;
+        height: 50px;
     }
 
     .headline90deg {
         display: flex;
         align-items: center;
         font-size: 16px;
-        transform: rotate(-90deg);
+        transform: rotate(-90deg) translateY(10px);
+        width: 50px;
     }
 
     a {
@@ -81,5 +82,16 @@ $purple-color: #D61CE6;
         font-size: 14px;
         color: $red-color;
         font-weight: 500;
+    }
+}
+
+.headerScrollDown {
+    position: absolute;
+    right: 20px;
+    bottom: 0px;
+
+    img {
+        height: 40px;
+        object-fit: cover;
     }
 }
