@@ -3,23 +3,58 @@
 }
 
 .aboutMe {
-    padding-left: 20px;
-    width: 200px;
+    position: relative;
+    padding-left: 50px;
+    width: 600px;
     color: white;
-    font-size: 5px;
+    font-size: 15px;
+    z-index: 5;
 
     h2 {
-        font-size: 20px;
+        font-size: 60px;
         padding-bottom: 10px;
     }
 
     div {
         display: flex;
         align-items: center;
-        padding-top: 10px;
-        gap: 10px;
+        padding-top: 50px;
+        gap: 30px;
+        z-index: 5;
+
         img {
-            height: 20px;
+            height: 60px;
+            transition: 150ms ease-in-out;
+
+            &:hover {
+                transform: scale(1.2);
+                transition: 150ms ease-in-out;
+            }
         }
     }
+}
+
+.portrai {
+    height: 500px;
+    position: absolute;
+    right: 100px;
+    bottom: -570px;
+    z-index: 1;
+}
+
+.portraiBgr {
+    height: 600px;
+    position: absolute;
+    right: 20px;
+    bottom: -700px;
+
+}
+
+.portraiShadow {
+    z-index: 2;
+    position: absolute;
+    right: 0;
+    left: 0;
+    bottom: -1250px;
+
 }
