@@ -1,4 +1,17 @@
 /* You can add global styles to this file, and also import other style files */
+@mixin orange {
+    $orange-color: #E86F00;
+}
+@mixin red {
+    $red-color: #FF4747;
+}
+@mixin pruple {
+    $purple-color: #D61CE6;
+}
+
+
+
+
 
 * {
     margin: 0;
