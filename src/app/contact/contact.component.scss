@@ -22,3 +22,48 @@ $purple-color: #D61CE6;
         font-size: 60px;
     }
 }
+
+.contactSection {
+    padding: 50px;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+
+    .sectionLeft {
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+        width: 400px;
+
+        h3 {
+            font-size: 26px;
+        }
+
+        span {
+            display: flex;
+            gap: 10px;
+
+            .slContactMe {
+                font-weight: bold;
+            }
+        }
+    }
+
+    .sectionRight {
+
+        form {
+            display: flex;
+            flex-direction: column;
+
+            input {
+                background-color: unset;
+                color: white;
+            }
+
+            textarea {
+                background-color: unset;
+                color: white;
+            }
+        }
+    }
+}
