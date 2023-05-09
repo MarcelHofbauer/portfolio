@@ -56,7 +56,10 @@ $purple-color: #D61CE6;
         align-items: center;
         justify-content: space-between;
         gap: 40px;
-        font-size: 60px;
+
+        h2 {
+            font-size: 60px;
+        }
 
         img {
             height: 5px;

@@ -1,0 +1,24 @@
+$orange-color: #E86F00;
+$red-color: #FF4747;
+$purple-color: #D61CE6;
+
+.containerContact {
+    height: 100vh;
+    padding-top: 100px;
+}
+
+.contactHead {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 40px;
+    color: white;
+
+    img {
+        height: 5px;
+    }
+
+    h2 {
+        font-size: 60px;
+    }
+}
