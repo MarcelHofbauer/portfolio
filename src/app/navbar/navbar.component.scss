@@ -16,6 +16,8 @@ $purple-color: #D61CE6;
     left: 0;
     right: 0;
     z-index: 10;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+
 }
 
 .navBarLogo {
@@ -36,8 +38,10 @@ $purple-color: #D61CE6;
     gap: 30px;
 
 
-    p {
+    a {
         transition: 150ms ease-in-out;
+        text-decoration: unset;
+        color: unset;
 
         &:hover {
             color: $orange-color !important;

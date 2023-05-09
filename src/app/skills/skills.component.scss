@@ -9,6 +9,7 @@ $purple-color: #D61CE6;
     padding-left: 50px;
     display: flex;
     justify-content: space-between;
+    padding-top: 120px;
 }
 
 .allSkillsIcons {
@@ -55,7 +56,7 @@ $purple-color: #D61CE6;
         align-items: center;
         justify-content: space-between;
         gap: 40px;
-        font-size: 34px;
+        font-size: 60px;
 
         img {
             height: 5px;
