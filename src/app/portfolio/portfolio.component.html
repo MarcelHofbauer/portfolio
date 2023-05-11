@@ -11,11 +11,7 @@
     <div class="containerProjects">
         <div>
             <div class="projectOverview">
-                <img class="pc" src="./../../assets/portfolio/join.png" alt="">
-                <img class="pcShadow" src="./../../assets/portfolio/pcshadow.png" alt="">
-            </div>
-            <div class="projectOverview">
-                <div class="clickView">
+                <div id="project0" style="display: none;" class="clickView">
                     <div>
                         <a class="link" href="">
                             GitHub
@@ -32,17 +28,72 @@
                     </div>
                 </div>
 
-                <img class="pc" src="./../../assets/portfolio/Pkedex.png" alt="">
+                <img (click)="openProjectInfo('0')" class="pc" src="./../../assets/portfolio/join.png" alt="">
+                <img class="pcShadow" src="./../../assets/portfolio/pcshadow.png" alt="">
+            </div>
+            <div class="projectOverview">
+                <div id="project1" style="display: none;" class="clickView">
+                    <div>
+                        <a class="link" href="">
+                            GitHub
+                        </a>
+                        <a class="link lifeTest" href="">
+                            Life test
+                        </a>
+                    </div>
+                    <div class="clickViewDescription">
+                        <h2>Pokedex</h2>
+                        <p>Based on the PokéAPI a simple library that provides and catalogues pokemon information.
+                        </p>
+                        <p class="descriptionCode">HTML | CSS | JavaScript | API</p>
+                    </div>
+                </div>
+
+                <img (click)="openProjectInfo('1')" class="pc" src="./../../assets/portfolio/Pkedex.png" alt="">
                 <img class="pcShadow" src="./../../assets/portfolio/pcshadow.png" alt="">
             </div>
         </div>
         <div>
             <div class="projectOverview">
-                <img class="pc" src="./../../assets/portfolio/simplecrm.png" alt="">
+                <div id="project2" style="display: none;" class="clickView">
+                    <div>
+                        <a class="link" href="">
+                            GitHub
+                        </a>
+                        <a class="link lifeTest" href="">
+                            Life test
+                        </a>
+                    </div>
+                    <div class="clickViewDescription">
+                        <h2>Pokedex</h2>
+                        <p>Based on the PokéAPI a simple library that provides and catalogues pokemon information.
+                        </p>
+                        <p class="descriptionCode">HTML | CSS | JavaScript | API</p>
+                    </div>
+                </div>
+
+                <img (click)="openProjectInfo('2')" class="pc" src="./../../assets/portfolio/simplecrm.png" alt="">
                 <img class="pcShadow" src="./../../assets/portfolio/pcshadow.png" alt="">
             </div>
             <div class="projectOverview">
-                <img class="pc" src="./../../assets/portfolio/polloloco.png" alt="">
+                <div id="project3" style="display: none;" class="clickView">
+                    <div>
+                        <a class="link" href="">
+                            GitHub
+                        </a>
+                        <a class="link lifeTest" href="">
+                            Life test
+                        </a>
+                    </div>
+                    <div class="clickViewDescription">
+                        <h2>Pokedex</h2>
+                        <p>Based on the PokéAPI a simple library that provides and catalogues pokemon information.
+                        </p>
+                        <p class="descriptionCode">HTML | CSS | JavaScript | API</p>
+                    </div>
+                </div>
+
+                <img (click)="openProjectInfo('3')" class="pc" src="./../../assets/portfolio/polloloco.png" alt="">
                 <img class="pcShadow" src="./../../assets/portfolio/pcshadow.png" alt="">
             </div>
         </div>
