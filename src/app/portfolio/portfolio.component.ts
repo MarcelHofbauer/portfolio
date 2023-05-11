@@ -22,7 +22,6 @@ export class PortfolioComponent {
       let element = document.getElementById('project' + index);
       element.style.display = "none";
     }
-
   }
 
 
