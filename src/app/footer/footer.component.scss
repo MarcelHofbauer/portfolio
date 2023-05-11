@@ -1,0 +1,63 @@
+@use "./../app.component.scss" as *;
+
+.containerFooter {
+    height: 200px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-top: 2px solid $orange-color;
+}
+
+.copyright {
+    color: white;
+}
+
+.footerLogo {
+    color: white;
+
+
+    .impr {
+        font-size: 12px;
+        transition: 150ms ease-in-out;
+        border-bottom: 2px solid transparent;
+        content: "";
+        display: block;
+        width: 50%;
+
+        &:hover {
+            cursor: pointer;
+            content: "";
+            display: block;
+            width: 50%;
+            border-bottom: 2px solid $orange-color;
+        }
+    }
+}
+
+.socialContactsFooter {
+    display: flex;
+    gap: 40px;
+}
+
+.navBarLogo {
+    display: flex;
+    font-size: 30px;
+    color: white;
+    text-decoration: none;
+
+
+    .navBarLogo-l {
+        color: $orange-color;
+    }
+}
+
+.socialContactIcons {
+    height: 20px;
+    transition: 150ms ease-in-out;
+
+    &:hover {
+        transform: scale(1.6);
+        transition: 150ms ease-in-out;
+        cursor: pointer;
+    }
+}

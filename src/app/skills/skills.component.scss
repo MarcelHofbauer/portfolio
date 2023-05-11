@@ -1,6 +1,4 @@
-$orange-color: #E86F00;
-$red-color: #FF4747;
-$purple-color: #D61CE6;
+@use "./../app.component.scss" as *;
 
 .containerSkills {
     height: 100vh;
