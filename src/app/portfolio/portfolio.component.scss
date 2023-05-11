@@ -56,15 +56,74 @@
         display: flex;
         gap: 50px;
 
-        div {
+        .projectOverview {
             border: 1px solid $orange-color;
             border-radius: 10px;
             background-color: #141D2F;
             position: relative;
             overflow: hidden;
+            transition: 150ms ease-in-out;
+
+            .clickView {
+                position: absolute;
+                top: 0;
+                bottom: 0;
+                left: 0;
+                right: 0;
+                background-color: rgba($color: rgb(46, 46, 46), $alpha: 0.9);
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                justify-content: center;
+                z-index: 2;
+
+                .link {
+                    text-decoration: none;
+                    color: white;
+                    border: 1px solid $orange-color;
+                    padding: 15px 30px;
+                    border-radius: 10px;
+                    transition: 150ms ease-in-out;
+
+                    &:hover {
+                        cursor: pointer;
+                        background-color: $orange-color;
+                        transform: scale(1.1);
+                    }
+                }
+
+                .lifeTest {
+                    border: unset;
+                    background-color: $red-color;
+                }
+
+                .clickViewDescription {
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+                    color: white;
+                    padding-left: 40px;
+                    padding-right: 40px;
+                    text-align: center;
+
+                    &:hover {
+                        cursor: default;
+                    }
+
+                    .descriptionCode {
+                        color: $orange-color;
+                        word-spacing: 10px;
+                    }
+                }
+            }
 
             .pc {
                 z-index: 1;
+
+                &:hover {
+                    opacity: 0.8;
+                    cursor: pointer;
+                }
             }
 
             .pcShadow {
